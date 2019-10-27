@@ -1,2 +1,2 @@
 # R.StormMarker
-Herramienta para la marcación de tormentas a partir de eventos de precipitación registrados obtenidos de pluviometros o pluviografos.
+Herramienta para la marcación y análisis de tormentas a partir de eventos de precipitación obtenidos de pluviometros o pluviografos.
