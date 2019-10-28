@@ -1,5 +1,6 @@
 # R.StormMarker
 Herramienta para la marcación y análisis de tormentas a partir de eventos de precipitación obtenidos de pluviometros o pluviografos.
+Compatible con: Microsoft Office 2019.
 
 Nota: Para el correcto funconamiento de la aplicación, asegurese de indexar registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
 
