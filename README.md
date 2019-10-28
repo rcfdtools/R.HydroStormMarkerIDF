@@ -19,3 +19,4 @@ Tabla y gráfica dinámica para análisis de duraciones.
 
 Grafica general con # de tormenta asignado, Precipitación Total e Intensidad.
 
+Link R (Celda A1) en las hojas del libro para volver a la hoja MAIN.
