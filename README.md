@@ -3,7 +3,7 @@ Herramienta para la marcación y análisis de tormentas a partir de eventos de p
 
 Compatible con: Microsoft Office 2019.
 
-Nota: Para el correcto funconamiento de la aplicación, asegurese de indexar registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
+Nota: Para el correcto funconamiento de la aplicación, asegurese de indexar los registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
 
 NOVEDADES EN VERSIONES
 
@@ -18,5 +18,4 @@ En la hoja Setup se ha incluído un ejemplo de la formulación requerida para se
 Tabla y gráfica dinámica para análisis de duraciones.
 
 Grafica general con # de tormenta asignado, Precipitación Total e Intensidad.
-
 
