@@ -11,10 +11,12 @@ Nota 2: No se recomienda definir el número de ceros intermedios mayor a 1 sí e
 PRUEBAS DE EJECUCIÓN
 -------------------
 
-Procesador Intel Core I5-8300H, RAM 16gb: 100K registros pueden ser limpiados y procesados en 9 minutos.
+LIMPIANDO REGISTROS CON DATOS EN CERO Y PROCESANDO LA SERIE
+Procesador Intel Core I5-8300H, RAM 16gb: 100K registros en 9 minutos.
+Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
 
-Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros pueden ser limpiados y procesados en 9 minutos.
-
+SOLO PROCESANDO LA SERIE SIN LIMPIEZA DE REGISTROS EN CERO
+Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
 
 NOVEDADES
 ----------------------
