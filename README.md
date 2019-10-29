@@ -3,11 +3,9 @@ Herramienta para la marcación y análisis de tormentas a partir de eventos de p
 
 Compatible con: Microsoft Office 2019.
 
-Nota 1: Para el correcto funconamiento de la aplicación, asegurese de indexar los registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
+Nota 1: Para el correcto funconamiento de la aplicación, antes de pegar los datos en la App, asegurese de indexar previamente los registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
 
 Nota 2: No se recomienda definir el número de ceros intermedios si se ejecutó previamente la función de eliminación de registros con ceros sucesivos. 
-
-
 
 NOVEDADES EN VERSIONES
 ----------------------
