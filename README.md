@@ -1,4 +1,4 @@
-# R.StormMarker
+# R.HydroStormMarker
 Herramienta para la marcación y análisis de tormentas a partir de eventos de precipitación obtenidos de pluviometros o pluviografos.
 
 Compatible con: Microsoft Office 2019.
