@@ -28,6 +28,8 @@ NOVEDADES
 v.20191029
 ----------
 
+Mejoras de rendimiento.
+
 Se ha incluído en la hoja "DatosEjemplo" datos que pueden ser utilizados para realizar pruebas de funcionamiento.
 
 En la hoja "DatosEjemplo" se ha incluído un ejemplo de la formulación requerida para segmentar el campo de la fecha del registro de datos (Formato AAAA/mm/dd HH:MM:SS) a columnas independientes de año, mes, día y hora en formato de texto con relleno de ceros en 4 caracteres.
