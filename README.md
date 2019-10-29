@@ -20,7 +20,7 @@ NOVEDADES EN VERSIONES
 ----------------------
 
 v.20191029
-..........
+----------
 
 Se ha incluído en la hoja "DatosEjemplo" datos que pueden ser utilizados para realizar pruebas de funcionamiento.
 
@@ -28,7 +28,7 @@ En la hoja "DatosEjemplo" se ha incluído un ejemplo de la formulación requerid
 
 
 v.20191028
-..........
+----------
 
 Títulos principales y secundarios en gráficas son aignados automáticamente a partir de los datos generales registrados para la estación.
 
