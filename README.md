@@ -8,7 +8,7 @@ Nota 1: Para el correcto funconamiento de la aplicación, antes de pegar los dat
 Nota 2: No se recomienda definir el número de ceros intermedios mayor a 1 sí ejecutó previamente la función de eliminación de registros con ceros sucesivos, debido a que no se mantiene la continuidad de fechas y horas en los registros. 
 
 
-PRUEBA DE EJECUCIÓN
+PRUEBAS DE EJECUCIÓN
 -------------------
 
 Procesador Intel Core I5-8300H, RAM 16gb: 100K registros pueden ser limpiados y procesados en 9 minutos.
@@ -16,7 +16,7 @@ Procesador Intel Core I5-8300H, RAM 16gb: 100K registros pueden ser limpiados y 
 Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros pueden ser limpiados y procesados en 9 minutos.
 
 
-NOVEDADES EN VERSIONES
+NOVEDADES
 ----------------------
 
 v.20191029
