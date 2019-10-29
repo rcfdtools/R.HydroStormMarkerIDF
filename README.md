@@ -3,6 +3,12 @@ Herramienta para la marcación y análisis de tormentas a partir de eventos de p
 
 Compatible con: Microsoft Office 2019.
 
+En hidrológía, el estudio de la precipitación a partir de datos de tormentas registrados en estaciones de precipitación, permite analizar su comportamiento, duración, intensidad y patrón temporal.
+
+R.HydroStormMarker, es una herramienta computacional que permite identificar y marcar los pulsos asociados a un mismo evento de lluvia, permitiendo conocer el valor total acumulado, duración e intensidad. Las tormentas identificadas pueden ser utilizadas para la construcción de curvas de Intesidad - Duración - Frecuencia ó IDF.
+
+Los pulsos de la precipitación pueden contener ceros intermedios en los cuales el sensor de captura no registra los cambios en la precipitación, razón por la cual la App permite incluir hasta 3 ceros consecutivos por cada evento. 
+
 Nota 1: Para el correcto funconamiento de la aplicación, antes de pegar los datos en la App, asegurese de indexar previamente los registros de 1 a n (Columna H de la hoja de Datos) ordenando los datos por fecha y hora. Desactive todos los filtros de datos antes de dar clic en EJECUTAR.
 
 Nota 2: No se recomienda definir el número de ceros intermedios mayor a 1 sí ejecutó previamente la función de eliminación de registros con ceros sucesivos, debido a que no se mantiene la continuidad de fechas y horas en los registros. 
