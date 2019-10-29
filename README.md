@@ -28,6 +28,8 @@ NOVEDADES
 v.20191029
 ----------
 
+Hoja de Conceptos Generales y Diagrama de Flujo General.
+
 Mejoras de rendimiento.
 
 Se ha incluído en la hoja "DatosEjemplo" datos que pueden ser utilizados para realizar pruebas de funcionamiento.
