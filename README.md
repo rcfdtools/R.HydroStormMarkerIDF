@@ -13,6 +13,8 @@ Nota 1: Para el correcto funconamiento de la aplicación, antes de pegar los dat
 
 Nota 2: No se recomienda definir el número de ceros intermedios mayor a 1 sí ejecutó previamente la función de eliminación de registros con ceros sucesivos, debido a que no se mantiene la continuidad de fechas y horas en los registros. 
 
+Nota 3: Para registros con frecuencia >= 30 minutos se recomienda utilizar solo 1 cero consecutivo.
+
 
 PRUEBAS DE EJECUCIÓN
 -------------------
@@ -25,7 +27,11 @@ AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
 
 SOLO PROCESANDO LA SERIE SIN LIMPIEZA DE REGISTROS EN CERO
 
-AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb: 100K registros en 0.4 minutos.
+AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb: 
+
+  100K registros en 0.42 minutos.
+  
+  406K registros en 1.47 minutos.
 
 
 NOVEDADES
