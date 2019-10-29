@@ -13,13 +13,14 @@ PRUEBAS DE EJECUCIÓN
 
 LIMPIANDO REGISTROS CON DATOS EN CERO Y PROCESANDO LA SERIE
 
-Procesador Intel Core I5-8300H, RAM 16gb: 100K registros en 9 minutos.
+Intel Core I5-8300H, 4 Cores, RAM 16gb: 100K registros en 9 minutos.
 
-Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
+AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
 
 SOLO PROCESANDO LA SERIE SIN LIMPIEZA DE REGISTROS EN CERO
 
-Procesador AMD Ryzen 7 2700 8 Cores 3.2GHz, RAM 32gb: 100K registros en 9 minutos.
+AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb: 100K registros en 1 minutos.
+
 
 NOVEDADES
 ----------------------
