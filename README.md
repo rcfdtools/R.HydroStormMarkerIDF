@@ -8,6 +8,7 @@ Nota 1: Para el correcto funconamiento de la aplicación, asegurese de indexar l
 Nota 2: No se recomienda definir el número de ceros intermedios si se ejecutó previamente la función de eliminación de registros con ceros sucesivos. 
 
 
+
 NOVEDADES EN VERSIONES
 ----------------------
 
