@@ -42,6 +42,12 @@ v.20191030
 
 Se incorporó nueva gráfica de todos los datos ingresados a partir del Índice consecutivo y el valor o dato registrado. 
 
+En la hoja de Setup se incorporó un campo para rótulo personalizado a mostrar en gráficas.
+
+Gráficas TormentaResumenGrafico y IndiceDatoGrafico son solo de lectura. Se pueden filtrar los datos a visualizar desde la hoja Datos y TormentaResumen.
+
+
+
 
 v.20191029
 ----------
