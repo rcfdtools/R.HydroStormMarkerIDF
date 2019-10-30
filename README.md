@@ -37,6 +37,12 @@ AMD Ryzen 7 2700, 8 Cores 3.2GHz, RAM 32gb:
 NOVEDADES
 ----------------------
 
+v.20191030
+----------
+
+Se incorporó nueva gráfica de todos los datos ingresados a partir del Índice consecutivo y el valor o dato registrado. 
+
+
 v.20191029
 ----------
 
