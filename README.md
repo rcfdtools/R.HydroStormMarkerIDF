@@ -1,6 +1,6 @@
 ![R.HydroStormMarker logo](https://github.com/r-cfdtools/R.HydroStormMarker/blob/master/R.HydroStormMarker_v0.png)
 
-Herramienta computacional para la marcación y análisis de tormentas a partir de eventos de precipitación obtenidos de pluviometros o pluviografos. Para más información consulte la sección Wiki de este proyecto.
+Herramienta computacional para la marcación y análisis de tormentas a partir de eventos de precipitación obtenidos de pluviometros o pluviografos. Para más información consulte la sección Wiki de este proyecto. [Ir a Wiki...](https://github.com/r-cfdtools/R.HydroStormMarker/wiki)
 
 ![R.HydroStormMarker Screen1](https://github.com/r-cfdtools/R.HydroStormMarker/blob/master/ScreenCapture/R.HydroStormMarker_Screen1.PNG)
 ![R.HydroStormMarker Screen2](https://github.com/r-cfdtools/R.HydroStormMarker/blob/master/ScreenCapture/R.HydroStormMarker_Screen2.PNG)
