@@ -1,7 +1,7 @@
 Attribute VB_Name = "IDF"
 Sub R_HydroStormMarker()
     'Creado por: r.cfdtools@gmail.com
-    'Informaci髇, licencia y condiciones de uso en https://github.com/r-cfdtools/R.HydroStormMarkerIDF
+    'Informaci贸n, licencia y condiciones de uso en https://github.com/r-cfdtools/R.HydroStormMarkerIDF
     vAppName = "R.HydroStormMarker"
     vCreateBy = "r.cfdtools@gmail.com"
     vTInicioCalc = Timer()
@@ -18,17 +18,17 @@ Sub R_HydroStormMarker()
     vCeldaIntervalo = "E3"
     vCeldaCeroIntermedio = "E5"         'Numero de ceros intermedios permitidos en una misma tormenta
     vCeldaBorraCeroInter = "G5"         'Eliminar filas con ceros consecutivos intermedios
-    vCeldaMaxDuracion = "I3"            'M醲ima duraci髇 encontrada en todas las tormentas
-    vCeldaIDFCluster = "I4"             'Calcular valores m醲imos por cluster de duraci髇
-    vCeldaMaxDuracionUsr = "I5"         'M醲ima duraci髇 definida por el usuario para IDF Cl鷖ters
-    vColAnno = 2                        'Columna B de A駉s
+    vCeldaMaxDuracion = "I3"            'M谩xima duraci贸n encontrada en todas las tormentas
+    vCeldaIDFCluster = "I4"             'Calcular valores m谩ximos por cluster de duraci贸n
+    vCeldaMaxDuracionUsr = "I5"         'M谩xima duraci贸n definida por el usuario para IDF Cl煤sters
+    vColAnno = 2                        'Columna B de A帽os
     vColDato = 6                        'Columna F de datos
-    vFilaRotulo = 8                     'Fila de r髏ulos de datos
+    vFilaRotulo = 8                     'Fila de r贸tulos de datos
     vFilaInicio = 9                     'Fila de inicio de datos
-    vColCerosIde = 9                    'Columna I para marcaci髇 de celdas con ceros consecutivos
-    vColTormentaNum = 10                'Columna J para marcaci髇 de tormentas
-    vColDatoAcumulado = 11              'Columna K de para acumulaci髇 de valores por tormenta
-    vColFrecAcum = 12                   'Columna L de marcaci髇 de intervalos o frecuencias acumuladas por evento
+    vColCerosIde = 9                    'Columna I para marcaci贸n de celdas con ceros consecutivos
+    vColTormentaNum = 10                'Columna J para marcaci贸n de tormentas
+    vColDatoAcumulado = 11              'Columna K de para acumulaci贸n de valores por tormenta
+    vColFrecAcum = 12                   'Columna L de marcaci贸n de intervalos o frecuencias acumuladas por evento
     vColIDFCluster = 13                 'Columna M de inicio de valores calculados para IDF Cluster
     vRegistros = (Range("B9").End(xlDown).Row) - vFilaInicio + 1 'Total de registros a procesar
     Range(vCeldaRegistros) = vRegistros
@@ -77,7 +77,7 @@ Sub R_HydroStormMarker()
             Next i
         End If
         
-        'IDENTIFICACI覰 Y NUMERACI覰 DE TORMENTAS
+        'IDENTIFICACI脫N Y NUMERACI脫N DE TORMENTAS
         For i = vFilaInicio To vFilaFin - 1
             Cells(i, vColTormentaNum) = vCuentaTormenta
             If Range(vCeldaCeroIntermedio) <= 0 Then 'Sin ceros consecutivos
@@ -93,7 +93,7 @@ Sub R_HydroStormMarker()
                 If Cells(i, vColDato) > 0 And (Cells(i + 1, vColDato) = 0 And Cells(i + 2, vColDato) = 0 And Cells(i + 3, vColDato) = 0 And Cells(i + 4, vColDato) = 0) Then vCuentaTormenta = vCuentaTormenta + 1
             End If
         Next i
-        Range(vCeldaNumTormentas) = vCuentaTormenta - 1 'N鷐ero de tormentas identificadas
+        Range(vCeldaNumTormentas) = vCuentaTormenta - 1 'N煤mero de tormentas identificadas
     
         'ACUMULAR VALORES EN CADA TORMENTA
         vIAux1 = 3 'Fila en la tabla de TormentaResumen a partir de la cual se inicia el registro
@@ -111,8 +111,8 @@ Sub R_HydroStormMarker()
             End If
         Next i
     
-        'MARCACI覰 DE LA COLUMNA DE FRECUENCIAS ACUMULADAS POR TORMENTA. COLOCAR LUEGO DE ACUMULAR VALORES
-        'Atenci髇: Para el correcto funcionamiento de esta opci髇, es necesario ejecutar previamente el algoritmo eliminaci髇 de ceros intermedios para ejecutar esta opci髇
+        'MARCACI脫N DE LA COLUMNA DE FRECUENCIAS ACUMULADAS POR TORMENTA. COLOCAR LUEGO DE ACUMULAR VALORES
+        'Atenci贸n: Para el correcto funcionamiento de esta opci贸n, es necesario ejecutar previamente el algoritmo eliminaci贸n de ceros intermedios para ejecutar esta opci贸n
         vIntervalo = 0
         vIntervaloMax = 0
         For i = vFilaInicio To vFilaFin - 1
@@ -123,7 +123,7 @@ Sub R_HydroStormMarker()
                 End If
                 
             Else
-                If vIntervalo > vIntervaloMax Then vIntervaloMax = vIntervalo + Range(vCeldaIntervalo) 'Evaluaci髇 de la m醲ima frecuencia acumulada encontrada
+                If vIntervalo > vIntervaloMax Then vIntervaloMax = vIntervalo + Range(vCeldaIntervalo) 'Evaluaci贸n de la m谩xima frecuencia acumulada encontrada
                 Cells(i, vColFrecAcum) = vIntervalo
                 vIntervalo = 0
             End If
@@ -135,13 +135,13 @@ Sub R_HydroStormMarker()
         For i = vFilaInicio To vFilaFin
             If i <> vFilaInicio Then
                 If Cells(i, vColTormentaNum) <> Cells(i - 1, vColTormentaNum) Then
-                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 2) = Sheets(vHojaDatos).Cells(i - 1, 2)  'A駉
+                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 2) = Sheets(vHojaDatos).Cells(i - 1, 2)  'A帽o
                     Sheets(vHojaTormentaResumen).Cells(vIAux1, 3) = Sheets(vHojaDatos).Cells(i - 1, 3)  'Mes
-                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 4) = Sheets(vHojaDatos).Cells(i - 1, 4)  'D韆
+                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 4) = Sheets(vHojaDatos).Cells(i - 1, 4)  'D铆a
                     Sheets(vHojaTormentaResumen).Cells(vIAux1, 5) = Sheets(vHojaDatos).Cells(i - 1, 10) 'Tormenta #
                     Sheets(vHojaTormentaResumen).Cells(vIAux1, 6) = Sheets(vHojaDatos).Cells(i - 1, 12) / Range(vCeldaIntervalo) '# Pulsos
                     If Sheets(vHojaDatos).Cells(i - 1, 12) / Range(vCeldaIntervalo) = 0 Then Sheets(vHojaTormentaResumen).Cells(vIAux1, 6) = 1
-                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 7) = Sheets(vHojaDatos).Cells(i - 1, 12) 'Duraci髇
+                    Sheets(vHojaTormentaResumen).Cells(vIAux1, 7) = Sheets(vHojaDatos).Cells(i - 1, 12) 'Duraci贸n
                     If Sheets(vHojaDatos).Cells(i - 1, 12) = 0 Then Sheets(vHojaTormentaResumen).Cells(vIAux1, 7) = Range(vCeldaIntervalo)
                     Sheets(vHojaTormentaResumen).Cells(vIAux1, 8) = Sheets(vHojaDatos).Cells(i - 1, 11) 'Dato acumulado o total al final del evento
                     Sheets(vHojaTormentaResumen).Cells(vIAux1, 9) = (Sheets(vHojaTormentaResumen).Cells(vIAux1, 8) * 60) / (Sheets(vHojaTormentaResumen).Cells(vIAux1, 6) * Range(vCeldaIntervalo)) 'Intensidad
@@ -151,15 +151,15 @@ Sub R_HydroStormMarker()
         Next i
     
         'CALCULO DE CLUSTERS
-        'Atenci髇: Para el correcto funcionamiento de esta opci髇, es necesario ejecutar previamente el algoritmo eliminaci髇 de ceros intermedios para ejecutar esta opci髇
-        'Marcaci髇 de columnas hasta frecuencia m醲ima acumulada
+        'Atenci贸n: Para el correcto funcionamiento de esta opci贸n, es necesario ejecutar previamente el algoritmo eliminaci贸n de ceros intermedios para ejecutar esta opci贸n
+        'Marcaci贸n de columnas hasta frecuencia m谩xima acumulada
         If Range(vCeldaMaxDuracionUsr) < Range(vCeldaMaxDuracion) And Range(vCeldaMaxDuracionUsr) > 0 Then
             vMaxNumPulsos = Range(vCeldaMaxDuracionUsr) / Range(vCeldaIntervalo)
         Else
             vMaxNumPulsos = Range(vCeldaMaxDuracion) / Range(vCeldaIntervalo)
         End If
         If Range(vCeldaIDFCluster) = "SI" Then
-            Range("M7") = "C罫CULO DE IDF CLUSTERS PARA CADA DELTA DE TIEMPO (Dt)"
+            Range("M7") = "C脕LCULO DE IDF CLUSTERS PARA CADA DELTA DE TIEMPO (Dt)"
             For i = 0 To vMaxNumPulsos - 1
                 Cells(vFilaRotulo, vColIDFCluster + i) = (i * Range(vCeldaIntervalo)) + Range(vCeldaIntervalo)
                 Sheets(vHojaIDFCluster).Cells(vFilaRotulo, 3 + i) = (i * Range(vCeldaIntervalo)) + Range(vCeldaIntervalo)
@@ -201,7 +201,7 @@ Sub R_HydroStormMarker()
                 Next i
             Next iAux
         End If
-        'Hoja IDFCluster resume los valores m醲imos encontrados por a駉 para cada delta de duraci髇.
+        'Hoja IDFCluster resume los valores m谩ximos encontrados por a帽o para cada delta de duraci贸n.
         If Range(vCeldaIDFCluster) = "SI" Then
             vCluster = 0
             For iAux = 0 To vMaxNumPulsos - 1
@@ -213,14 +213,14 @@ Sub R_HydroStormMarker()
                             vCluster = Cells(i, vColIDFCluster + iAux)
                         End If
                     Else
-                        If Cells(i, vColIDFCluster + iAux) > vCluster Then 'Evalua 鷏tima celda de cada a駉
+                        If Cells(i, vColIDFCluster + iAux) > vCluster Then 'Evalua 煤ltima celda de cada a帽o
                             vCluster = Cells(i, vColIDFCluster + iAux)
                         End If
-                        Sheets(vHojaIDFCluster).Cells(vFilaInicio + iAux2, 2) = Cells(i - 1, vColAnno) 'A駉
-                        Sheets(vHojaIDFClusterIntensidad).Cells(vFilaInicio + iAux2, 2) = Cells(i - 1, vColAnno) 'A駉
+                        Sheets(vHojaIDFCluster).Cells(vFilaInicio + iAux2, 2) = Cells(i - 1, vColAnno) 'A帽o
+                        Sheets(vHojaIDFClusterIntensidad).Cells(vFilaInicio + iAux2, 2) = Cells(i - 1, vColAnno) 'A帽o
                         If vCluster <> 0 Then
-                            Sheets(vHojaIDFCluster).Cells(vFilaInicio + iAux2, 3 + iAux) = vCluster 'Valor m醲imo
-                            Sheets(vHojaIDFClusterIntensidad).Cells(vFilaInicio + iAux2, 3 + iAux) = (vCluster * 60) / ((iAux + 1) * Range(vCeldaIntervalo)) 'Intensidad m醲ima
+                            Sheets(vHojaIDFCluster).Cells(vFilaInicio + iAux2, 3 + iAux) = vCluster 'Valor m谩ximo
+                            Sheets(vHojaIDFClusterIntensidad).Cells(vFilaInicio + iAux2, 3 + iAux) = (vCluster * 60) / ((iAux + 1) * Range(vCeldaIntervalo)) 'Intensidad m谩xima
                         End If
                         iAux2 = iAux2 + 1
                         vCluster = 0
@@ -242,19 +242,19 @@ Sub R_HydroStormMarker()
             For iAux = 0 To vMaxNumPulsos - 1
                 vRango = Range(Cells(vFilaInicio, 3 + iAux), Cells(vFilaFin, 3 + iAux))
                 Cells(vFilaFin + 2, 3 + iAux) = Application.Average(vRango) 'Promedio
-                Cells(vFilaFin + 3, 3 + iAux) = Application.StDev(vRango) 'Desviaci髇 est醤dar StDev, StDevP
+                Cells(vFilaFin + 3, 3 + iAux) = Application.StDev(vRango) 'Desviaci贸n est谩ndar StDev, StDevP
                 Cells(vFilaFin + 4, 3 + iAux) = Application.Count(vRango) 'n
                 Cells(vFilaFin + 5, 3 + iAux) = fGumbelYn(Cells(vFilaFin + 4, 3 + iAux)) 'Yn
                 Cells(vFilaFin + 6, 3 + iAux) = fGumbelSn((Cells(vFilaFin + 4, 3 + iAux)), (Cells(vFilaFin + 5, 3 + iAux))) 'Sn
             Next iAux
-            'Marcaci髇 de periodos de retorno Tr
+            'Marcaci贸n de periodos de retorno Tr
             For iAux = 0 To vRegistrosTr - 1
                 Cells(vFilaFin + iAux + 9, 2) = Sheets(vHojaSetup).Cells(4 + iAux, 14)
             Next iAux
             For iAux = 0 To vMaxNumPulsos - 1
                 Cells(vFilaInicio + vRegistrosIDFCluster + 7, 3 + iAux) = Cells(vFilaRotulo, 3 + iAux)
             Next iAux
-            'Estimaci髇 de precipitaci髇 para diferentes periodos de retorno =((-LN(-LN((1-(1/Tr)))))/(Sn/DesvStd))+(Promedio-DesvStd*(Yn/Sn))
+            'Estimaci贸n de precipitaci贸n para diferentes periodos de retorno =((-LN(-LN((1-(1/Tr)))))/(Sn/DesvStd))+(Promedio-DesvStd*(Yn/Sn))
             Range("E4") = vFilaFin + 8
             For iAux = 0 To vMaxNumPulsos - 1
                 For iAux1 = 0 To vRegistrosTr - 1
@@ -267,7 +267,7 @@ Sub R_HydroStormMarker()
                 Next iAux1
             Next iAux
         End If
-        'Copiado y pegado de valores estimados de precipitaci髇 para diferentes Tr en la hoja IDFValores. Requerido para la graficaci髇 de la IDF
+        'Copiado y pegado de valores estimados de precipitaci贸n para diferentes Tr en la hoja IDFValores. Requerido para la graficaci贸n de la IDF
         If Sheets(vHojaDatos).Range(vCeldaIDFCluster) = "SI" Then
             vRegInicioTr = Sheets(vHojaIDFClusterIntensidad).Range("E4")
             vRegFinTr = vRegInicioTr + Sheets(vHojaIDFClusterIntensidad).Range("E3")
@@ -277,7 +277,7 @@ Sub R_HydroStormMarker()
             Range("B8").Select
             Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
         End If
-        'IDF cl鷖ters. Series de valores obtenidos para la construcci髇 de la ecuaci髇 caracter韘tica a partir de correlaci髇 m鷏tiple
+        'IDF cl煤sters. Series de valores obtenidos para la construcci贸n de la ecuaci贸n caracter铆stica a partir de correlaci贸n m煤ltiple
         If Sheets(vHojaDatos).Range(vCeldaIDFCluster) = "SI" Then
             For iAux = 0 To vMaxNumPulsos - 1
                 For iAux1 = 0 To vRegistrosTr - 1
@@ -285,16 +285,16 @@ Sub R_HydroStormMarker()
                     'MsgBox vDatoNum
                     Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 2) = vDatoNum '# Dato
                     Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 3) = Sheets(vHojaIDFValores).Cells(vFilaInicio + iAux1, 3 + iAux) 'i: Intensidad
-                    Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 4) = Sheets(vHojaIDFValores).Cells(vFilaInicio - 1, 3 + iAux) 'd: Duraci髇
+                    Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 4) = Sheets(vHojaIDFValores).Cells(vFilaInicio - 1, 3 + iAux) 'd: Duraci贸n
                     Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 5) = Sheets(vHojaIDFValores).Cells(vFilaInicio + iAux1, 2) 'f: Frecuencia o Tr
                     Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 6) = Log(Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 3)) 'Ln (i): Logaritmo de la Intensidad
-                    Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 7) = Log(Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 4)) 'Ln (d): Logaritmo de la Duraci髇
+                    Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 7) = Log(Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 4)) 'Ln (d): Logaritmo de la Duraci贸n
                     Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 8) = Log(Sheets(vHojaIDFSerie).Cells(vFilaInicio + vDatoNum - 1, 5)) 'Ln (f): Logaritmo de la Frecuencia o Tr
                 Next iAux1
             Next iAux
         End If
                 
-        'TIEMPO TOTAL DE C罫CULO
+        'TIEMPO TOTAL DE C脕LCULO
         vTFinCalc = Timer()
         vTTotalCalc = (vTFinCalc - vTInicioCalc) & "s"
         vMsgBoxTxt = "Proceso Completado" & vbNewLine & Now & vbNewLine & "dt: " & vTTotalCalc & vbNewLine & "# Tormentas: " & (vCuentaTormenta - 1) & vbNewLine & vbNewLine & vCreateBy
