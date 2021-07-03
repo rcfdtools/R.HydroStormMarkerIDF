@@ -4,9 +4,9 @@ R.HydroStormMarkerIDF por r.cfdtools@gmail.com
 
 Herramienta para marcación, análisis de tormentas y construcción de curvas IDF a partir de eventos de precipitación obtenidos de pluviografos. Para más información consulte la sección [Wiki](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/wiki) de este proyecto. 
 
-*******************************
-Cláusulas de autor a 2021.06.23
-*******************************
+
+### Cláusulas de autor a 2021.06.23
+
 
 Al descargar, descomprimir, instalar, usar o explorar esta herramienta, sus archivos y documentación, usted como empresa, individuo, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
 
@@ -30,14 +30,15 @@ Se permite la modificación y mejora de los manuales, libros de cálculo electr�
 
 No se permite la privatización, acaparamiento, venta o distribución comercial de este software, ni ningúno de sus componentes, ni de las memorias de cálculo, de los scripts y demás herramientas complementarias que se encuentran en el paquete de datos de instalación.
 
+### Ilustraciones
 
-![R.HydroStormMarker Screen1](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen1.PNG)
-![R.HydroStormMarker Screen2](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen2.PNG)
-![R.HydroStormMarker Screen3](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen3.PNG)
-![R.HydroStormMarker Screen4](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen4.PNG)
-![R.HydroStormMarker Screen5](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen5.PNG)
-![R.HydroStormMarker Screen6](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen6.PNG)
-![R.HydroStormMarker Screen7](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen7.PNG)
-![R.HydroStormMarker Screen8](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen8.PNG)
-![R.HydroStormMarker Screen9](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen9.PNG)
+![R.HydroStormMarker Screen1](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen1.PNG)
+![R.HydroStormMarker Screen2](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen2.PNG)
+![R.HydroStormMarker Screen3](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen3.PNG)
+![R.HydroStormMarker Screen4](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen4.PNG)
+![R.HydroStormMarker Screen5](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen5.PNG)
+![R.HydroStormMarker Screen6](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen6.PNG)
+![R.HydroStormMarker Screen7](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen7.PNG)
+![R.HydroStormMarker Screen8](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen8.PNG)
+![R.HydroStormMarker Screen9](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen9.PNG)
 
