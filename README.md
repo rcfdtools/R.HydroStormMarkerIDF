@@ -42,3 +42,13 @@ No se permite la privatización, acaparamiento, venta o distribución comercial 
 ![R.HydroStormMarker Screen8](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen8.PNG)
 ![R.HydroStormMarker Screen9](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen9.PNG)
 
+Desarrollador:
+* r.cfdtoos@gmail.com
+
+Documentación
+* GEAR - Curso de Hidrología
+* r.cfdtoos@gmail.com
+
+Pruebas técnicas de funcionamiento:
+* r.cfdtoos@gmail.com
+
