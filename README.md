@@ -1,5 +1,5 @@
 ![R.HydroStormMarker logo](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/Icons/R.HydroStormMarkerIDF_v1.png)
-![R.HydroStormMarkerIDF_IDFEcuacionGrafica](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/Icons/R.HydroStormMarkerIDF_IDFEcuacionGrafica.PNG.png)
+![R.HydroStormMarkerIDF_IDFEcuacionGrafica](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/Icons/R.HydroStormMarkerIDF_IDFEcuacionGrafica.png)
 
 R.HydroStormMarkerIDF por r.cfdtools@gmail.com
 
