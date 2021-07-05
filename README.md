@@ -6,7 +6,7 @@ Herramienta para marcación, análisis de tormentas y construcción de curvas ID
 
 
 ### Cláusulas de autor a 2021.06.23
-======
+
 
 Al descargar, descomprimir, instalar, usar o explorar esta herramienta, sus archivos y documentación, usted como empresa, individuo, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
 
