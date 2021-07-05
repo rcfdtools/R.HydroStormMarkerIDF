@@ -2,7 +2,7 @@
 
 R.HydroStormMarkerIDF por r.cfdtools@gmail.com
 
-Herramienta para marcación, análisis de tormentas y construcción de curvas IDF a partir de eventos de precipitación obtenidos de pluviografos. Para más información consulte la sección [Wiki](https://github.com/r-cfdtools/R.HydroStormMarkerIDF/wiki) de este proyecto. 
+Herramienta para marcación, análisis de tormentas y construcción de curvas IDF a partir de eventos de precipitación obtenidos de pluviografos. Para más información consulte la sección [Wiki](https://github.com/rcfdtools/R.HydroStormMarkerIDF/wiki) de este proyecto. 
 
 
 ### Cláusulas de autor a 2021.06.23
