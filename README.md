@@ -43,13 +43,13 @@ Se permite la reproducción parcial o total de este documento, el modelo de dato
 ![R.HydroStormMarker Screen9](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_Screen9.PNG)
 ![R.HydroStormMarkerIDF_IDFEcuacionGrafica](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/ScreenCapture/R.HydroStormMarkerIDF_IDFEcuacionGrafica.PNG)
 
-Desarrollador:
-* r.cfdtoos@gmail.com
+### Desarrollador
+r.cfdtoos@gmail.com
 
-Documentación
+### Documentación
 * GEAR - Curso de Hidrología
 * r.cfdtoos@gmail.com
 
-Pruebas técnicas de funcionamiento:
-* r.cfdtoos@gmail.com
+### Pruebas técnicas de funcionamiento
+r.cfdtoos@gmail.com
 
