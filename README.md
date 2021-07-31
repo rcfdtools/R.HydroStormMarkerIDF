@@ -1,4 +1,4 @@
-# R.HydroStormMarkerIDF por r.cfdtools@gmail.com
+# R.HydroStormMarkerIDF
 
 ![R.HydroStormMarker logo](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/Icons/R.HydroStormMarkerIDF_v1.png)
 
