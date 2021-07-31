@@ -1,6 +1,4 @@
-# R.HydroStormMarkerIDF
-
-![R.HydroStormMarker logo](https://github.com/rcfdtools/R.HydroStormMarkerIDF/blob/master/Icons/R.HydroStormMarkerIDF_v1.png)
+## R.HydroStormMarkerIDF
 
 Herramienta para marcación, análisis de tormentas y construcción de curvas IDF a partir de eventos de precipitación obtenidos de pluviografos. Para más información consulte la sección [Wiki](https://github.com/rcfdtools/R.HydroStormMarkerIDF/wiki) de este proyecto. 
 
